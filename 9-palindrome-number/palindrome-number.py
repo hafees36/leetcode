@@ -3,8 +3,7 @@ class Solution:
         x=str(x)
         left=0
         right=len(x)-1
-        if x==0:
-            return True
+        
         while left<right:
             if x[left]!=x[right]:
                 return False
